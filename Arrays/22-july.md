@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 53. Maximum Subarray
 
 class Solution:
@@ -10,3 +11,18 @@ class Solution:
             maxSum = max(maxSum, currentSum)
 
         return maxSum
+=======
+# 53. Maximum Subarray
+
+
+    class Solution:
+        def maxSubArray(self, nums: List[int]) -> int:
+            maxSum = nums[0]
+            currentSum = nums[0]
+    
+            for num in nums[1:]:
+                currentSum = max(num, currentSum + num)
+                maxSum = max(maxSum, currentSum)
+    
+            return maxSum
+>>>>>>> 86ff65217cb42d8911cc979129b5e050b18a9209
