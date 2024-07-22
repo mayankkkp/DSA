@@ -1,17 +1,13 @@
 # 53. Maximum Subarray
 
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        sm=0
-        mx=-sys.maxsize-1      
-        for i in range(0,len(nums)):
-            sm+=nums[i]
+        maxSum = nums[0]
+        currentSum = nums[0]
 
-            if sm>mx:
-                mx=sm
-            # if mx<0:
-            #     mx=0
+        for num in nums[1:]:
+            currentSum = max(num, currentSum + num)
+            maxSum = max(maxSum, currentSum)
 
-            if sm<0:
-                sum=0
-        return mx  
+        return maxSum
