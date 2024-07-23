@@ -1,4 +1,4 @@
-# 56. [Merge Intervals]([https://leetcode.com/problems/maximum-subarray/description/](https://leetcode.com/problems/merge-intervals/description/)
+# 56. [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
 
     
