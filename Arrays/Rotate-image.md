@@ -1,4 +1,4 @@
-# 53. [Rotate-image](https://leetcode.com/problems/rotate-image/description/)
+# 48. [Rotate-image](https://leetcode.com/problems/rotate-image/description/)
 
 
     
